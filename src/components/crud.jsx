@@ -7,7 +7,8 @@ import img from "./IMG_8450 1.png";
 import "../App.css";
 
 const Crud = () => {
-  let api = "http://37.27.29.18:8001/api/categories";
+  // let api = "http://37.27.29.18:8001/api/categories";
+  let api = "https://to-dos-api.softclub.tj/api/categories";
   let [data, setData] = useState([]);
 
   async function get() {
@@ -139,8 +140,14 @@ const Crud = () => {
         <div className="flex">
           <img className="w-2/5" src={img} alt="" />
           <ul className="list-disc ml-5">
-            <li><b>name: </b>{infoName}</li>
-            <li><b>id: </b>{idx}</li>
+            <li>
+              <b>name: </b>
+              {infoName}
+            </li>
+            <li>
+              <b>id: </b>
+              {idx}
+            </li>
           </ul>
         </div>
       </Modal>
