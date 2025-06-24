@@ -80,10 +80,10 @@ function App() {
         </div>
 
         <article className="ml-5 lg:ml-24 py-10 flex gap-5 overflow-scroll  scrollbar-hidden whitespace-nowrap">
-          <div className="bg-[#F1F5F9] whitespace-normal flex items-center basis-auto grow-0 shrink-0 w-9/10 lg:w-2/5 p-5 rounded-2xl ">
+          <div className="bg-[#F1F5F9] whitespace-normal flex items-center gap-3 basis-auto grow-0 shrink-0 w-9/10 lg:w-2/5 p-5 rounded-2xl ">
             <div>
               <p className="font-bold">Одежда</p>
-              <p className="text-base py-5">
+              <p className="lg:text-base text-[12px] py-5">
                 Откройте для себя мир роскоши и качества с одеждой от ведущих
                 мировых брендов: Addidas, Timberland, The North Face и других
                 знаменитых брендов
@@ -97,10 +97,10 @@ function App() {
             <img className="w-2/5" src={img2} alt="" />
           </div>
 
-          <div className="bg-[#F1F5F9] whitespace-normal flex items-center basis-auto grow-0 shrink-0 w-9/10 lg:w-2/5 p-5 rounded-2xl ">
+          <div className="bg-[#F1F5F9] whitespace-normal flex gap-3 items-center basis-auto grow-0 shrink-0 w-9/10 lg:w-2/5 p-5 rounded-2xl ">
             <div>
               <p className="font-bold">Одежда</p>
-              <p className="text-base py-5">
+              <p className="lg:text-base text-[12px]  py-5">
                 Откройте для себя мир роскоши и качества с одеждой от ведущих
                 мировых брендов: Addidas, Timberland, The North Face и других
                 знаменитых брендов
@@ -114,10 +114,10 @@ function App() {
             <img className="w-2/5" src={img3} alt="" />
           </div>
 
-          <div className="bg-[#F1F5F9] whitespace-normal flex items-center basis-auto grow-0 shrink-0 w-9/10 lg:w-2/5 p-5 rounded-2xl ">
+          <div className="bg-[#F1F5F9] whitespace-normal flex gap-3 items-center basis-auto grow-0 shrink-0 w-9/10 lg:w-2/5 p-5 rounded-2xl ">
             <div>
               <p className="font-bold">Одежда</p>
-              <p className="text-base py-5">
+              <p className="lg:text-base text-[12px]  py-5">
                 Откройте для себя мир роскоши и качества с одеждой от ведущих
                 мировых брендов: Addidas, Timberland, The North Face и других
                 знаменитых брендов
